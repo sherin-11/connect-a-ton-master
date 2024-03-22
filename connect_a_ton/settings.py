@@ -25,8 +25,8 @@ SECRET_KEY = os.getenv("DJANGO_KEY", "please set a key in .env")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 
-ALLOWED_HOSTS = ["localhost", "connect.makeaton.in"]
-CSRF_TRUSTED_ORIGINS = ['https://connect.makeaton.in', 'http://localhost']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'coderecet.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://coderecet.onrender.com', 'http://localhost', 'http://127.0.0.1']
 
 # CORS settings
 CORS_ORIGIN_WHITELIST = CSRF_TRUSTED_ORIGINS
