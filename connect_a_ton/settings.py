@@ -103,7 +103,7 @@ DATABASES = {
         'NAME': os.getenv('POSTGRES_DB'),
         'USER': os.getenv('POSTGRES_USER'),
         'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
-        'HOST': 'localhost',
+        'HOST': 'dpg-cnuqbven7f5s73fbu920-a',
         'PORT': '5432',
     }
 }
